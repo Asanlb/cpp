@@ -8,6 +8,7 @@ void print(const vector<T> &vector){
     cout<<*it<<" ";
   } cout<<endl;
 }
+
 int main(){
   vector<int> myVector;
   int N,a,b;cout<<"N: ";cin>>N;
@@ -26,5 +27,6 @@ int main(){
   advance(i2,a);
   myVector.erase(i2);
   print(myVector);
+  print("Hello World!");
   return 0;
 }
